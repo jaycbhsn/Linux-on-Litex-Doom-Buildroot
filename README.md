@@ -5,9 +5,9 @@ This file contains the nessecary files to build a rootfs.cpio for a board, given
 
 You will need the following to install the files nessecary to build the root file system:
 
-   git clone https://github.com/buildroot/buildroot.git --branch master
-   
-   cd buildroot
-   
-   git checkout 9ef54b7d
+  > git clone https://github.com/buildroot/buildroot.git --branch master
+  > 
+  > cd buildroot
+  > 
+  > git checkout 9ef54b7d
 

@@ -1,0 +1,9 @@
+include $(sort $(wildcard $(BR2_EXTERNAL_LITEX_VEXRISCV_PATH)/package/*/*.mk))
+
+ifeq ($(BR2_PACKAGE_VEXRISCV_AES),y)
+LIBOPENSSL_CFLAGS+=-DVEXRISCV_AES
+LIBRESSL_CONF_OPTS+=-DVEXRISCV_AES=ON
+endif
+
+TARGET_CFLAGS+="-DSYS_futex=SYS_futex_time64"
+TARGET_CFLAGS+="-D__NR_futex=__NR_futex_time64"

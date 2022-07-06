@@ -7,7 +7,8 @@ LOOP=1
 start() {
     while [ $LOOP -eq 1 ] 
 		do
-			chocolate-doom -2 -nosound -nokeyboard -nomouse
+			# Commands go here
+			dhrystone 2000000; chocolate-doom -2 -nosound -nokeyboard -nomouse
 		done
 }
 

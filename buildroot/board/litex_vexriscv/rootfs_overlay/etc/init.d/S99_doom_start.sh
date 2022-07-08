@@ -7,8 +7,8 @@ LOOP=1
 start() {
     while [ $LOOP -eq 1 ] 
 		do
-			# Commands go here
-			dhrystone 2000000; chocolate-doom -2 -nosound -nokeyboard -nomouse
+			# Commands go here (uncomment the next line to launch DOOM on startup)
+			# chocolate-doom -2 -nosound -nokeyboard -nomouse
 		done
 }
 

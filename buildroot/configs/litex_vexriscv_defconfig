@@ -1,3 +1,7 @@
+# Build options
+#BR2_CCACHE=y
+#BR2_CCACHE_DIR="$(HOME)/.buildroot-ccache-saxon_default"
+
 # Target options
 BR2_riscv=y
 BR2_RISCV_32=y
@@ -57,3 +61,5 @@ BR2_PACKAGE_SDL2_DIRECTFB=y
 BR2_PACKAGE_SDL2_X11=y
 BR2_PACKAGE_CHOCOLATE_DOOM=y
 BR2_PACKAGE_DOOM_WAD=y
+BR2_PACKAGE_HEARTBEAT=y
+

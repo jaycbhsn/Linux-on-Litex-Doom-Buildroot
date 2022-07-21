@@ -11,3 +11,4 @@ You will need the following to install the files nessecary to build the root fil
   > 
   > git checkout 9ef54b7d
 
+Download this as a ZIP file and extract buildroot into your Linux-on-LiteX directory, replace the one there.

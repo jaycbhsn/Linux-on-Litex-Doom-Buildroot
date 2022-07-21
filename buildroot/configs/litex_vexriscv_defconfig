@@ -28,7 +28,6 @@ BR2_TARGET_GENERIC_GETTY_PORT="console"
 # Filesystem
 BR2_TARGET_ROOTFS_CPIO=y
 
-# We don't need to build the kernal, since that is precompiled in the github
 # Kernel (litex-rebase branch)
 #BR2_LINUX_KERNEL=y
 #BR2_LINUX_KERNEL_CUSTOM_GIT=y
